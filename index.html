@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="container text-center">
+    <header>
+      <h1 class="display-4">Rock Paper Scissors</h1>
+    </header>
+    <main class="bg-dark text-white">
+      Este es un jueguito
+      <div class="scoreboard p-5">
+        <div class="row">
+          <div class="col" id="playerscore">0</div>
+          <div class="col">:</div>
+          <div class="col" id="compscore">0</div>
+        </div>
+        <h1 class="display-4" id="winnername"></h1>
+      </div>
+      <div class="main-game">
+        <div class="row">
+          <div class="col" id="r">
+            <button class="btn btn-primary">Piedra</button>
+          </div>
+          <div class="col" id="p">
+            <button class="btn btn-primary">Papel</button>
+          </div>
+          <div class="col" id="s">
+            <button class="btn btn-primary">Tijera</button>
+          </div>
+        </div>
+      </div>
+      <p class="lead" id="actiontext">Es Hora de Jugar!</p>
+    </main>
+  </body>
+  <script src="./js/main.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
